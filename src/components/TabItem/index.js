@@ -14,6 +14,7 @@ const TabItem = props => {
     <li className="tab-item-container">
       <button
         type="button"
+    <!--In the above code, multiple class names can be added using template literals.-->
         className={`tab-btn ${activeTabClassItem}`}
         onClick={updateActiveTab}
       >
